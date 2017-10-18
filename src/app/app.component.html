@@ -1,29 +1,37 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar w/ text</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#">RESUME</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+    aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" [routerLink]="['/personal']">個人檔案</a>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/personal']">
+          <i class="material-icons">perm_identity</i>
+          個人檔案</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" [routerLink]="['/education']">學歷</a>
+        <a class="nav-link" [routerLink]="['/education']">
+          <i class="material-icons">school</i>
+          學歷</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" [routerLink]="['/work']">經歷</a>
+        <a class="nav-link" [routerLink]="['/work']">
+          <i class="material-icons">card_travel</i>
+          經歷</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" [routerLink]="['/skill']">技能專長</a>
+        <a class="nav-link" [routerLink]="['/skill']">
+          <i class="material-icons">build</i>
+          技能專長</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" [routerLink]="['/autobiography']">自傳</a>
+        <a class="nav-link" [routerLink]="['/autobiography']">
+          <i class=material-icons>format_align_justify</i>
+          自傳</a>
       </li>
     </ul>
-    <span class="navbar-text">
-      Navbar text with an inline element
-    </span>
   </div>
 </nav>
 
