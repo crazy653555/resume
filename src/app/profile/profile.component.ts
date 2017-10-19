@@ -11,15 +11,15 @@ export class ProfileComponent implements OnInit {
 
   private apiBase = 'http://localhost:3000/profile';
 
-  profile:Profile;
+  profile: Profile;
 
   constructor(private http: HttpClient) { }
 
   ngOnInit() {
-    this.http.get<any>(this.apiBase)
+    this.http.get<Profile>(this.apiBase)
       .subscribe(data => {
         this.profile = data;
-      })
+      });
   }
 
 }

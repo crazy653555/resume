@@ -17,5 +17,25 @@
     "name": "鄭清源",
     "ename":"EASON",
     "email":"crazy653555@gmail.com"
-  }
+  },
+  "education":[
+    {
+      "id":1,
+      "school":"元智大學",
+      "department":"資訊工程系",
+      "Education":"碩士"
+    },
+    {
+      "id":2,
+      "school":"萬能科技大學",
+      "department":"資訊工程系",
+      "Education":"學士"
+    },
+    {
+      "id":3,
+      "school":"育達高中",
+      "department":"資訊系",
+      "Education":"高中"
+    }
+  ]
 }
