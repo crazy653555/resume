@@ -1,3 +1,12 @@
+body {
+  background-color: #f5f8fa;
+}
+
+#resume-body {
+  padding-top: 1em;
+}
+
+
 /* icon size */
 
 .material-icons.md-18 {
@@ -51,18 +60,52 @@
   border-bottom: 0.2em solid #FFF;
 }
 
-.navbar .navbar-nav>.active>a:hover,sa
-.navbar .navbar-nav>li>a:hover {
+.navbar .navbar-nav>.active>a:hover,
+sa .navbar .navbar-nav>li>a:hover {
   background-color: transparent;
   color: #f3f3f3;
   border-bottom: 0.2em solid #f3f3f3;
 }
 
-@media(max-width:34em){
+@media(max-width:34em) {
   .navbar .navbar-nav>.active>a {
     border-bottom: none;
-    border-left:0.45em solid #fff;
-    padding-left:0.5em;
+    border-left: 0.45em solid #fff;
+    padding-left: 0.5em;
   }
 }
-/* navbar */
+
+
+/* ##navbar## */
+
+
+/* ##left mneu## */
+
+.card{
+  position: relative;
+  border:0.07rem solid #e5e5e5;
+  border-radius: 0.4rem;
+  background-color: #fff;
+}
+
+.card-img-top{
+  border-radius: 0.4rem 0.4rem 0 0;
+}
+
+.card-block{
+  padding:1.25rem;
+}
+
+.card-block img.card-img{
+  top:50%;
+  margin-top:-36px;
+  width:72px;
+  border:3px solid #fff;
+  border-radius:0.4rem;
+  float:left;
+  position:relative;
+  z-index:99;
+}
+
+
+/* ##left mneu end## */

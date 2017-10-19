@@ -8,6 +8,8 @@ import { EducationComponent } from './education/education.component';
 import { SkillsComponent } from './skills/skills.component';
 import { AutobiographyComponent } from './autobiography/autobiography.component';
 import { WorkComponent } from './work/work.component';
+import { ProfileComponent } from './profile/profile.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,11 +18,13 @@ import { WorkComponent } from './work/work.component';
     EducationComponent,
     SkillsComponent,
     AutobiographyComponent,
-    WorkComponent
+    WorkComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
