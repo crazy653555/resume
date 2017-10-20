@@ -10,6 +10,7 @@ import { AutobiographyComponent } from './autobiography/autobiography.component'
 import { WorkComponent } from './work/work.component';
 import { ProfileComponent } from './profile/profile.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ResumeService } from './resume.service';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,7 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [ResumeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

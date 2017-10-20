@@ -1,41 +1,39 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
+  "posts": [{
+    "id": 1,
+    "title": "json-server",
+    "author": "typicode"
+  }],
+  "comments": [{
+    "id": 1,
+    "body": "some comment",
+    "postId": 1
+  }],
   "profile": {
     "name": "鄭清源",
-    "ename":"EASON",
-    "email":"crazy653555@gmail.com"
+    "ename": "EASON",
+    "email": "crazy653555@gmail.com",
+    "born": "1983/06/27",
+    "sex": "M",
+    "nationality": "台灣",
+    "address": "桃園龍潭",
+    "marital-status":"未婚"
   },
-  "education":[
-    {
-      "id":1,
-      "school":"元智大學",
-      "department":"資訊工程系",
-      "Education":"碩士"
+  "education": [{
+      "id": 1,
+      "school": "元智大學",
+      "department": "資訊工程系",
+      "education": "碩士",
+      "attending-date": "2010",
+      "graduation-date": "2014"
     },
     {
-      "id":2,
-      "school":"萬能科技大學",
-      "department":"資訊工程系",
-      "Education":"學士"
-    },
-    {
-      "id":3,
-      "school":"育達高中",
-      "department":"資訊系",
-      "Education":"高中"
+      "id": 2,
+      "school": "萬能科技大學",
+      "department": "資訊工程系",
+      "education": "學士",
+      "attending-date": "2007",
+      "graduation-date": "2010"
     }
   ]
 }

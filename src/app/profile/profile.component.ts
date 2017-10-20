@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 import { Profile } from '../profile';
+import { ResumeService } from '../resume.service';
 
 @Component({
   selector: 'app-profile',
@@ -9,17 +9,15 @@ import { Profile } from '../profile';
 })
 export class ProfileComponent implements OnInit {
 
-  private apiBase = 'http://localhost:3000/profile';
+  profile:Profile;
 
-  profile: Profile;
-
-  constructor(private http: HttpClient) { }
+  constructor(private dataServer: ResumeService) { }
 
   ngOnInit() {
-    this.http.get<Profile>(this.apiBase)
+    this.dataServer.getProfile()
       .subscribe(data => {
         this.profile = data;
-      });
+      })
   }
 
 }

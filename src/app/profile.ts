@@ -1,5 +1,10 @@
 export interface Profile {
   name: string,
-  sname: string,
-  email: string
+  ename: string,
+  email: string,
+  born: string,
+  sex: string,
+  nationality: string,
+  address: string,
+  'marital-status':string
 }

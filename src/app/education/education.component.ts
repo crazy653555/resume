@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 import { Education } from '../education';
+import { ResumeService } from '../resume.service';
 
 @Component({
   selector: 'app-education',
@@ -9,14 +9,12 @@ import { Education } from '../education';
 })
 export class EducationComponent implements OnInit {
 
-  private apiBase = 'http://localhost:3000/education';
-
   education: Education[];
 
-  constructor(private http: HttpClient) { }
+  constructor(private dataServer:ResumeService ) { }
 
   ngOnInit() {
-    this.http.get<Education[]>(this.apiBase)
+    this.dataServer.getEducation()
       .subscribe(data => {
         this.education = data;
       });

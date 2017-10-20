@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ResumeService } from '../resume.service';
+import { Profile } from '../profile';
 
 @Component({
   selector: 'app-personal',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PersonalComponent implements OnInit {
 
-  constructor() { }
+  constructor(private dataServer:ResumeService) { }
+
+  personal:Profile;
 
   ngOnInit() {
+    this.dataServer.getProfile()
+    .subscribe(data => {
+      this.personal = data;
+    });
   }
 
 }
