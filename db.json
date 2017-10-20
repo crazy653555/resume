@@ -17,23 +17,113 @@
     "sex": "M",
     "nationality": "台灣",
     "address": "桃園龍潭",
-    "marital-status":"未婚"
+    "marital-status": "未婚"
   },
   "education": [{
       "id": 1,
-      "school": "元智大學",
+      "university": "元智大學",
       "department": "資訊工程系",
-      "education": "碩士",
+      "major-courses": "碩士",
       "attending-date": "2010",
       "graduation-date": "2014"
     },
     {
       "id": 2,
-      "school": "萬能科技大學",
+      "university": "萬能科技大學",
       "department": "資訊工程系",
-      "education": "學士",
+      "major-courses": "學士",
       "attending-date": "2007",
       "graduation-date": "2010"
+    }
+  ],
+  "experience": [{
+    "organization-name": "健行科技大學",
+    "position": "專任助理",
+    "description-of-responsibility": "負責行政業務以及校內系統設計與維護",
+    "start": "2013/04",
+    "end": "在職"
+  }, {
+    "organization-name": "博聯網路公司",
+    "position": "工程師",
+    "description-of-responsibility": "軟硬體硬體以及網路維護工作，廠商採購接洽",
+    "start": "2010/10",
+    "end": "2010/03"
+  }],
+  "skills": [{
+      "id": 1,
+      "skill": "C#"
+    },
+    {
+      "id": 2,
+      "skill": "VB"
+    },
+    {
+      "id": 3,
+      "skill": "Java"
+    },
+    {
+      "id": 4,
+      "skill": "HTML"
+    },
+    {
+      "id": 5,
+      "skill": "CSS"
+    },
+    {
+      "id": 6,
+      "skill": "JavaScript"
+    },
+    {
+      "id": 7,
+      "skill": "JQuery"
+    },
+    {
+      "id": 8,
+      "skill": "Angular 4"
+    },
+    {
+      "id": 9,
+      "skill": "Asp.NET WebFrome"
+    },
+    {
+      "id": 10,
+      "skill": "Asp.NET MVC"
+    },
+    {
+      "id": 11,
+      "skill": "MSSQL"
+    },
+    {
+      "id": 12,
+      "skill": "Linq"
+    },
+    {
+      "id": 13,
+      "skill": "git"
+    },
+    {
+      "id": 14,
+      "skill": "svn"
+    },
+    {
+      "id": 15,
+      "skill": "Visual Studio"
+    },
+    {
+      "id": 16,
+      "skill": "Visual Studio Code"
+    },
+    {
+      "id": 17,
+      "skill": "eclipse"
+    },
+    {
+      "id": 18,
+      "skill": "SQL Server Mangement"
+    },
+    {
+      "id": 19,
+      "skill": "LinqPad"
     }
   ]
 }

@@ -1,3 +1,14 @@
-<p>
-  work works!
-</p>
+<div class="card">
+  <h4 class="card-header">
+      工作經驗
+  </h4>
+  <div class="card-body">
+    <ul *ngFor="let item of experience">
+      <li>{{item['organization-name']}}</li>
+      <li>{{item.position}}</li>
+      <li>{{item['description-of-responsibility']}}</li>
+      <li>{{item.start}} - {{item.end}}</li>
+    </ul>
+  </div>
+</div>
+

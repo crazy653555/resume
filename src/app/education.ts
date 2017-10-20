@@ -1,8 +1,8 @@
 export interface Education {
-  id: number,
-  school: string,
-  department: string,
-  education: string,
-  'attendng-date':number,
-  'graduation-date':number
+  id: number;
+  university: string;
+  department: string;
+  'major-courses': string;
+  'attending-date': string;
+  'graduation-date': string;
 }

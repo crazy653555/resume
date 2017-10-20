@@ -1,5 +1,8 @@
-<p>
-  skills works!
-  <i class="material-icons md-48">face</i>
-
-</p>
+<div class="card">
+  <h4 class="card-header">專長</h4>
+  <div class="card-body">
+    <ul>
+      <li *ngFor="let item of skills">{{item.skill}}</li>
+    </ul>
+  </div>
+</div>

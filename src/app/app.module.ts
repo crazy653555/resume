@@ -11,6 +11,7 @@ import { WorkComponent } from './work/work.component';
 import { ProfileComponent } from './profile/profile.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ResumeService } from './resume.service';
+import { IndexComponent } from './index/index.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ResumeService } from './resume.service';
     SkillsComponent,
     AutobiographyComponent,
     WorkComponent,
-    ProfileComponent
+    ProfileComponent,
+    IndexComponent
   ],
   imports: [
     BrowserModule,
