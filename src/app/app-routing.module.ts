@@ -6,16 +6,12 @@ import { WorkComponent } from './work/work.component';
 import { SkillsComponent } from './skills/skills.component';
 import { AutobiographyComponent } from './autobiography/autobiography.component';
 import { IndexComponent } from './index/index.component';
+import { LayoutComponent } from './layout/layout.component';
 
 
 const routes: Routes = [
   { path: '', component: IndexComponent },
-  { path: 'index',component:IndexComponent },
-  { path: 'personal', component: PersonalComponent },
-  { path: 'education', component: EducationComponent },
-  { path: 'work', component: WorkComponent },
-  { path: 'skill', component: SkillsComponent },
-  { path: 'autobiography', component: AutobiographyComponent },
+  { path:'layout',component:LayoutComponent},
   { path: '**', component: PersonalComponent }
 ];
 

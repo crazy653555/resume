@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 import { ResumeService } from '../resume.service';
 import { Profile } from '../profile';
 

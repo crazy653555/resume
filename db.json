@@ -16,8 +16,9 @@
     "born": "1983/06/27",
     "sex": "M",
     "nationality": "台灣",
-    "address": "桃園龍潭",
-    "marital-status": "未婚"
+    "address": "桃園市龍潭區",
+    "marital-status": "未婚",
+    "description":"目前任職於健行科技大學系統開發組，主要負責會計系統、出納系統、財管系統、計畫編列系統的開發及維護，工作環境為 ASP.NET WebFrome、MSSQL、C#、VB、SVN。因興趣自主學習了ASP.NET MVC、ASP.NET WEB API 、Angular 4、Bootstrapt、Git等。"
   },
   "education": [{
       "id": 1,
@@ -39,13 +40,15 @@
   "experience": [{
     "organization-name": "健行科技大學",
     "position": "專任助理",
-    "description-of-responsibility": "負責行政業務以及校內系統設計與維護",
+    "location":" 桃園市中壢區",
+    "description-of-responsibility": "負責行政業務及校內系統設計與維護。目前負責會計系統、出納系統、財管系統、計畫編列系統開發及維護。且為因應會計室業務需求進修了基本會計課程。",
     "start": "2013/04",
     "end": "在職"
   }, {
     "organization-name": "博聯網路公司",
+    "location":" 桃園市中壢區",
     "position": "工程師",
-    "description-of-responsibility": "軟硬體硬體以及網路維護工作，廠商採購接洽",
+    "description-of-responsibility": "負責軟硬體維護組裝、網路維護、採購、行政業務",
     "start": "2010/10",
     "end": "2010/03"
   }],

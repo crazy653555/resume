@@ -6,5 +6,6 @@ export interface Profile {
   sex: string,
   nationality: string,
   address: string,
-  'marital-status':string
+  'marital-status':string,
+  description:string
 }

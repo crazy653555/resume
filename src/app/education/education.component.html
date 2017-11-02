@@ -1,13 +1,7 @@
-<div class="card">
-  <h4 class="card-header">學歷</h4>
-  <div class="card-body">
-    <div *ngFor="let item of education">
-      <ul>
-        <li>{{item.university}}</li>
-        <li>{{item.department}}</li>
-        <li>{{item['major-courses']}}</li>
-        <li>{{item['attending-date']}} - {{item['graduation-date']}}</li>
-      </ul>
-    </div>
-  </div>
-</div>
+<h2 class="text-primary">EDUCHATION</h2>
+<ul *ngFor="let item of education">
+  <li class="h5 font-weight-bold">{{item.university}} ({{item['attending-date']}} - {{item['graduation-date']}})</li>
+  <li>學歷 : {{item.department}}</li>
+  <li>科系 : {{item['major-courses']}}</li>
+  <li></li>
+</ul>

@@ -1,10 +1,12 @@
 <div id="profile-resume" class="card">
   <img class="card-img-top img-responsive" src="./assets/img/self-2.png">
-  <div class="card-block">
+  <div class="card-body">
     <!-- <img src="/assets/img/self.png" class="card-img"> -->
-    <h5 class="card-title">{{profile.name}} {{profile.ename}}</h5>
-    <p class="card-text">{{profile.email}}</p>
-
+    <h3 class="card-title" style="font-weight:bold">{{profile.name}}</h3>
+    <!-- <p cl。ass="card-text">{{profile.email}}</p> -->
+    <li><i class="material-icons">cake</i>{{profile.born}}</li>
+    <li><i class="material-icons">email</i>{{profile.email}}</li>
+    <li><i class="material-icons">place</i>{{profile.address}}</li>
   </div>
 </div>
 <br>

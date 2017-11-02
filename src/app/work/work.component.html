@@ -1,14 +1,7 @@
-<div class="card">
-  <h4 class="card-header">
-      工作經驗
-  </h4>
-  <div class="card-body">
-    <ul *ngFor="let item of experience">
-      <li>{{item['organization-name']}}</li>
-      <li>{{item.position}}</li>
-      <li>{{item['description-of-responsibility']}}</li>
-      <li>{{item.start}} - {{item.end}}</li>
-    </ul>
-  </div>
-</div>
-
+<h2 class="text-primary">EXPERIENCE</h2>
+<ul *ngFor="let item of experience">
+  <li class="h5 font-weight-bold">{{item['organization-name']}} ({{item.start}} - {{item.end}})</li>
+  <li>職務類別 : {{item.position}}</li>
+  <li>工作地點 : {{item.location}}</li>
+  <li>工作內容 : {{item['description-of-responsibility']}}</li>
+</ul>

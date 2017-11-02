@@ -12,6 +12,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ResumeService } from './resume.service';
 import { IndexComponent } from './index/index.component';
+import { LayoutComponent } from './layout/layout.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { IndexComponent } from './index/index.component';
     AutobiographyComponent,
     WorkComponent,
     ProfileComponent,
-    IndexComponent
+    IndexComponent,
+    LayoutComponent
   ],
   imports: [
     BrowserModule,

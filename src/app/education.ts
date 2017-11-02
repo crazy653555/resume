@@ -5,4 +5,5 @@ export interface Education {
   'major-courses': string;
   'attending-date': string;
   'graduation-date': string;
+  'description-of-responsibility':string;
 }
